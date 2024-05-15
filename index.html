@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>To-do-list</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>To-do-list</h1>
+        </header>
+        <main>
+            <form>
+                <label for="task" onclick="">Insert</label>
+                <input id="inputTask" type="text" placeholder="New task..."><br>
+                <button onclick="event.preventDefault(); newTask()">Add</button>
+            </form>
+        </main>
+    </div>
+    <div id="newTask"  >   <!-- devo aggiungere class="tasks" -->
+                           <!-- devo aggiungere la task sotto forma di paragrafo <p> text... </p> -->
+    </div>
+
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
